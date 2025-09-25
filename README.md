@@ -7,6 +7,7 @@ export GOPROXY=...
 then
 
 ```
+go clean -modcache
 go mod download -x
 ```
 
